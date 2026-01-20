@@ -978,6 +978,7 @@ SLURM_CONFIG_MODEL_SCHEMA = {
             "enum": ["mcs/none", "mcs/account", "mcs/group", "mcs/user", "mcs/label"],
         },
         "messagetimeout": {"type": "integer", "minimum": 0},
+        "metricstype": {"type": "string", "enum": ["metrics/openmetrics"]},
         "minjobage": {"type": "integer", "minimum": 0},
         "mpidefault": {"type": "string", "enum": ["pmi2", "pmix", "none"]},
         "mpiparams": {
