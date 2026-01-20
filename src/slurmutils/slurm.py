@@ -431,6 +431,7 @@ class SlurmConfig(Model):
     ]
     mcs_plugin: str | None
     message_timeout: int | None
+    metrics_type: str | None
     min_job_age: int | None
     mpi_default: str | None
     mpi_params: Annotated[
